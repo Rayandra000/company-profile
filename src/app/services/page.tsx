@@ -13,75 +13,69 @@ export const metadata: Metadata = {
 const Services = () => {
   return (
     <section>
-      <div className="relative flex justify-center min-h-screen pt-32 bg-slate-100">
+      <div className="relative flex justify-center min-h-screen pt-48 bg-slate-100">
         <div className="container">
           <div className="w-full px-4">
             <div className="max-w-xl mx-auto text-center mb-16">
               <h4 className="font-bold text-primary text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                Photography{" "}
+                Product{" "}
                 <span className="text-black">
                   for <br />
                   All Businesses
                 </span>
               </h4>
-              <p className="font-medium italic text-md text-secondary md:text-lg">
-                Explore the diverse range of professional photography and video
-              </p>
-              <div
-                id="custom-controls-gallery"
-                className="relative w-full"
-                data-carousel="slide"
-              ></div>
+              <p className="font-medium italic text-md text-secondary md:text-lg">Explore the diverse range of Quality products and All Businesses</p>
+              <div id="custom-controls-gallery" className="relative w-full" data-carousel="slide"></div>
             </div>
 
             <div className="w-full px-4 gap-3 flex flex-wrap items-center justify-center mb-10">
               {[
                 {
-                  src: "/images/Card/FnB1.webp",
-                  alt: "Food & Beverages",
-                  title: "Food & Beverages",
+                  src: "/images/Card/buah 1.jpeg",
+                  alt: "Fruits",
+                  title: "Fresh Fruits",
                   description: "Elevating Your Gastronomic Creations",
                 },
                 {
-                  src: "/images/Card/Property1.webp",
-                  alt: "Property",
-                  title: "Property",
+                  src: "/images/Card/minuman 1.jpeg",
+                  alt: "Fresh Drink",
+                  title: "Fresh Drink",
                   description: "Showcasing Properties to Perfection",
                 },
                 {
-                  src: "/images/Card/Headshots1.webp",
-                  alt: "Headshots",
-                  title: "Headshots",
+                  src: "/images/Card/food1.jpeg",
+                  alt: "Fresh Food",
+                  title: "Fresh Food",
                   description: "Professional Headshots for Every Need",
                 },
                 {
-                  src: "/images/Card/Events1.webp",
-                  alt: "Events",
-                  title: "Events",
+                  src: "/images/Card/sabun1.jpeg",
+                  alt: "Toiletries",
+                  title: "Toiletries",
                   description: "Preserving Moments, Creating Memories",
                 },
                 {
-                  src: "/images/Card/Beauty1.webp",
-                  alt: "Health & Beauty",
-                  title: "Health & Beauty",
+                  src: "/images/Card/snack1.jpeg",
+                  alt: "Packaged Snacks",
+                  title: "Packaged Snacks",
                   description: "Highlighting Natural Beauty and Wellness",
                 },
                 {
-                  src: "/images/Card/Products1.webp",
-                  alt: "Products",
-                  title: "Products",
+                  src: "/images/Card/tulis1.jpeg",
+                  alt: "STATIONERY",
+                  title: "Stationery",
                   description: "Capturing the Essence of Your Brand",
                 },
                 {
-                  src: "/images/Card/TVC1.webp",
-                  alt: "Videography & TVC",
-                  title: "Videography & TVC",
+                  src: "/images/Card/alat1.jpeg",
+                  alt: "household appliances",
+                  title: "Household",
                   description: "Capturing Stories with Precision",
                 },
                 {
-                  src: "/images/Card/OSB.webp",
-                  alt: "Browse All",
-                  title: "Browse All",
+                  src: "/images/Card/furnitur1.jpeg",
+                  alt: "home furniture",
+                  title: "Home Furniture",
                   description: "Explore All Our Services",
                 },
               ].map((item, index) => (

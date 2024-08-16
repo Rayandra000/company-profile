@@ -44,8 +44,8 @@ const PGGlobal: NextPage = () => {
           <div className="max-h-screen text-center mb-1">
             <div className="mx-auto text-center lg:mt-5 mb-3 w-full lg:w-1/2">
               <h4 className="font-bold bg-gradient-to-br text-dark1 text-4xl mb-3 lg:text-4xl pb-8">
-                Meet Our Global <br />
-                <span className="pb-1 text-primary">Photographers</span>
+                Franchise Partner and Owner <br />
+                <span className="pb-1 text-primary">RAYMART</span>
               </h4>
             </div>
           </div>
@@ -59,12 +59,7 @@ const PGGlobal: NextPage = () => {
                 <div className="flex flex-wrap items-center justify-center gap-4 mb-28">
                   {users.map((user, index) => (
                     <div key={index} className="flex-grow max-w-[350px] m-5">
-                      <RandomUser
-                        user={user}
-                        isLoading={loading}
-                        error={error}
-                        isTransitioning={isTransitioning}
-                      />
+                      <RandomUser user={user} isLoading={loading} error={error} isTransitioning={isTransitioning} />
                     </div>
                   ))}
                 </div>

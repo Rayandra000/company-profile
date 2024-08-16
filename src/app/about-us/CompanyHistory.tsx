@@ -14,29 +14,27 @@ const CompanyHistory = () => {
         <div className="flex flex-wrap">
           <div className="max-w-xl mx-auto">
             <div className="w-full px-4 m-5">
-              <h3 className="font-semibold italic text-dark1 text-2xl mb-2 lg:text-4xl lg:pt-10 lg:mb-10">
-                Our Story
-              </h3>
+              <h3 className="font-semibold italic text-dark1 text-2xl mb-2 lg:text-4xl lg:pt-10 lg:mb-10">Our Story</h3>
             </div>
           </div>
           <div className="flex flex-wrap m-5 ">
             <p className="font-medium text-justify text-base m-5 lg:text-xl">
-              CAStudio was founded in 2019, inspired by a passion for street
-              photography. Initially, the focus was on capturing images for
-              friends&apos; businesses in food & beverage and product photography.
-              As the quality and creativity of the work garnered attention, the
-              demand for services grew. <br /> <br />By 2021, CAStudio had expanded its reach, receiving numerous inquiries and forming partnerships with multinational companies and enterprises. This marked a turning point, transforming the company from a small-scale operation into a global photography network.
-              <br /><br /> Today, CAStudio offers a comprehensive range of services, including Food & Beverage photography, Health & Beauty photography, Headshots, Event Coverage, Product photography, Property photography, and TVC & Video production. With a network of over 10,000 partner photographers worldwide, CAStudio is committed to delivering
-              consistent, high-quality visual content tailored to the unique
-              needs of businesses across all industries. <br /><br /> Through a dedicated
-              team of internal photo editors and a global network of
-              professionals, CAStudio continues to evolve, ensuring that every
-              project aligns with the distinct vision and brand of its clients.
+              Behind every great brand is an inspiring story of the journey to success. So is Raymart, a company that has caught the attention of many consumers with its commitment to quality and affordable prices.
+              <br />
+              <br />
+              Raymart was founded in 1951 by Rayandra Rheza Paleva with a simple yet ambitious vision: to provide a variety of quality products at pocket-friendly prices. With an entrepreneurial spirit and dedication to providing added
+              value to customers, Raymart began to pioneer its steps in the retail industry.
+              <br />
+              <br />
+              Starting from a small shop located in Jakarta, Raymart managed to attract customers thanks to a combination of competitive prices and friendly service. Over time, Raymart experienced rapid growth. By focusing on customer needs
+              and adapting to market changes, Raymart began to expand its reach to various regions.
+              <br />
+              <br />
+              In its efforts to reach more customers, Raymart launched an online platform that allows consumers to shop from the comfort of their homes. This platform not only expanded Raymarts reach but also strengthened its commitment to
+              providing an easy and enjoyable shopping experience.
             </p>
           </div>
-          <div>
-
-          </div>
+          <div></div>
         </div>
       </div>
     </section>

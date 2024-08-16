@@ -37,11 +37,11 @@ const ClientNavbar = () => {
       <div className="flex justify-around items-center mx-auto px-4 lg:px-8">
         <div className="pt-[0.8rem]">
           <Link href="/" aria-label="CAStudio Home">
-            <Image src="/rayNavLogo2.png" alt="rayNavbar Logo" className="dark:invert w-auto h-auto" width={200} height={200} />
+            <Image src="/rayNavLogo2.png" alt="rayNavbar Logo" className="dark:invert max-[667px]:w-[150px] h-auto" width={200} height={200} />
           </Link>
         </div>
         <ul
-          className={`absolute right-4 top-16 z-10 py-2 bg-slate-200 bg-opacity-95 shadow-xl rounded-3xl max-w-[250px] w-full lg:w-fit ${
+          className={`absolute right-20 top-16 z-10 py-2 bg-slate-200 bg-opacity-95 shadow-xl rounded-3xl max-w-[250px] w-full lg:w-fit ${
             isMenuOpen ? "block" : "hidden"
           } lg:flex lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:flex-row`}
           ref={navMenuRef}

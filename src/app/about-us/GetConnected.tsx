@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "CA Studio | Let's Get Connected",
-  description: "Reach out to CA Studio and connect with our team to explore tailored photography and video solutions that bring your brand's vision to life.",
+  title: "RAYMART | Let's Get Connected",
+  description: "Reach out to RAYMART and connect with our team to explore tailored photography and video solutions that bring your brand's vision to life.",
 };
 
 const GetConnected = () => {

@@ -11,7 +11,7 @@ const ClientNavbar = dynamic(() => import("./components/navbarr"), {
 });
 
 export const metadata: Metadata = {
-  title: "CA Studio",
+  title: "RAYMART",
   description: "Photography Agency",
 };
 

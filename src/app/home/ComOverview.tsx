@@ -5,7 +5,7 @@ import React from "react";
 import Button from "../components/Button";
 
 export const metadata: Metadata = {
-  title: "CA Studio | Company Overview",
+  title: "RAYMART | Company Overview",
   description: "Overview",
 };
 

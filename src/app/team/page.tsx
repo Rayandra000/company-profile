@@ -4,9 +4,8 @@ import TeamLeader from "./team-user/TeamLeader";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CA Studio | Our Team",
-  description:
-    "Meet the creative minds behind CAStudio. Learn more about our talented team of photographers, editors, and professionals dedicated to delivering high-quality photography services.",
+  title: "RAYMART | Our Team",
+  description: "Meet the creative minds behind RAYMART Learn more about our talented team of photographers, editors, and professionals dedicated to delivering high-quality photography services.",
 };
 
 const Team = () => {

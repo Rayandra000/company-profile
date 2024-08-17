@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "CA Studio | Timeline",
+  title: "RAYMART | Timeline",
   description:
-    "Explore the journey of CA Studio from its founding in 2019 to becoming a global leader in B2B photography services. Our timeline highlights key milestones, including major achievements, service expansions, and the growth of our global network. Discover how we evolved to offer diverse photography and video solutions and continue to set industry standards with our commitment to quality.",
+    "Explore the journey of RAYMART from its founding in 2019 to becoming a global leader in B2B photography services. Our timeline highlights key milestones, including major achievements, service expansions, and the growth of our global network. Discover how we evolved to offer diverse photography and video solutions and continue to set industry standards with our commitment to quality.",
 };
 
 const Timeline = () => {

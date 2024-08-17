@@ -4,8 +4,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "CA Studio | About Us",
-  description: "Discover CA Studio, a global leader in B2B photography services, offering tailored visual content through our network of professional photographers and videographers in over 500 cities worldwide.",
+  title: "RAYMART | About Us",
+  description: "Discover RAYMART, a global leader in B2B photography services, offering tailored visual content through our network of professional photographers and videographers in over 500 cities worldwide.",
 };
 
 const AboutUs = () => {

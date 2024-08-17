@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "CA Studio | History",
+  title: "RAYMART | History",
   description:
-    "Founded in 2019, CA Studio began as a passion project in street photography, quickly evolving into a global leader in B2B photography services. From humble beginnings to working with multinational companies, CA Studio now boasts a network of over 10,000 photographers worldwide, offering diverse photography and video production services with consistent quality.",
+    "Founded in 2019, RAYMART began as a passion project in street photography, quickly evolving into a global leader in B2B photography services. From humble beginnings to working with multinational companies, RAYMART now boasts a network of over 10,000 photographers worldwide, offering diverse photography and video production services with consistent quality.",
 };
 
 const CompanyHistory = () => {

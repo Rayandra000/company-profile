@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="w-full lg:pl-28">
         <footer className="footer text-base-content content-center pb-1 p-10">
           <nav>
-            <h6 className="footer-title text-slate-200">Services</h6>
+            <h6 className="footer-title text-slate-200">
+              <p>Services</p>
+            </h6>
             <a href="/services" className="link link-hover text-slate-300">
               Food & Beverages
             </a>

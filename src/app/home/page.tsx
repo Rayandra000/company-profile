@@ -9,9 +9,7 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) =>
-        getNextImageIndex(prevIndex, images.length)
-      );
+      setCurrentImageIndex((prevIndex) => getNextImageIndex(prevIndex, images.length));
     }, 4000); // Change image every 4 seconds
     return () => clearInterval(interval);
   }, []);
@@ -22,9 +20,7 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute inset-0 h-full w-full bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-              index === currentImageIndex ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 h-full w-full bg-cover bg-center transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? "opacity-100" : "opacity-0"}`}
             style={{ backgroundImage: `url(${image})` }}
           />
         ))}
@@ -38,7 +34,7 @@ const Hero = () => {
           Capture Your Brand&apos;s <br />
           Story Globally
         </h1>
-        <p className="text-[12px] md:text-lg lg:text-xl italic text-gray-950 mb-5 text-center lg:text-left">
+        <p className="text-xs md:text-lg lg:text-xl italic text-gray-950 mb-5 text-center lg:text-left">
           Get tailored photography and video services
           <br />
           anywhere in the world with our network of local experts,

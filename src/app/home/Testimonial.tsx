@@ -14,7 +14,9 @@ const Testimonial = () => {
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-16">
-            <h4 className="font-bold text-dark1 text-balance text-2xl mb-4 sm:text-3xl lg:text-4xl">What Clients Say About Us</h4>
+            <h4 className="font-bold text-dark1 text-balance text-2xl mb-4 sm:text-3xl lg:text-4xl">
+              <p>What Clients Say About Us</p>
+            </h4>
           </div>
           {/* ---Testimoni start--- */}
           <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800">

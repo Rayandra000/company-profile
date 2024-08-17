@@ -5,7 +5,7 @@ import Testimonial from "../home/Testimonial";
 import Clients from "../client/page";
 
 export const metadata: Metadata = {
-  title: "CA Studio | Our Services",
+  title: "RAYMART | Our Services",
   description:
     "Explore the diverse range of professional photography and video production services offered by CA Studio. From commercial photography to tailored editing solutions, we provide high-quality, consistent results to businesses across all industries, worldwide.",
 };
